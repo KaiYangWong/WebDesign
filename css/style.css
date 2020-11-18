@@ -46,3 +46,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.wrap{
+   margin: 0 auto;
+}
+
+.bar{
+    background: #f6f6f6;
+}
+
+.bar ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar ul li{
+    margin: 5px;
+}
+
+.bar li a{
+	text-decoration: none;
+	font-size: 16px;
+ 
+}
+
+.bar li img{
+    margin-right: 5px;
+    float: left;
+}
+
+.facebook{
+    border-right: 2px solid #cccccc;
+    padding-right: 8px;
+}
+
+.facebook span{
+    color:#4460a0;
+}
