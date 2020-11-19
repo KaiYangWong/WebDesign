@@ -83,3 +83,47 @@ table {
 .facebook span{
     color:#4460a0;
 }
+
+.header h1{
+   float: left;
+}
+
+.header{
+	background: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h1 a{
+	background-image: url(../images/logo.png);
+	width: 224px;
+	height: 50px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	width: 100px;
+	text-align: center;
+}
+
+.menu li a{
+	color:#66e0c2;
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu li a:hover{
+	border-bottom: solid 3px #66e0c2;
+}
