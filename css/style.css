@@ -119,11 +119,37 @@ table {
 .menu li a{
 	color:#66e0c2;
 	display: block;
+	font-weight:bold;
 	text-decoration: none;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .menu li a:hover{
-	border-bottom: solid 3px #66e0c2;
+	border-bottom: solid 3px #00cc99;
 }
+
+.banner{
+	background-image: url(../images/banner.png);
+	height: 346px;
+	background-size:cover;
+	background-position:center center;
+	display:flex;
+	align-items: center;
+}
+
+.banner h1{
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 1.5;
+	padding-left: 15px;
+	padding-top: 42px;
+	padding-bottom: 42px;
+	background: rgba(0, 0,0,0.3);
+}
+
+.banner .mask{
+	width: 100%;
+}
+
+
