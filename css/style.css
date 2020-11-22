@@ -49,6 +49,7 @@ table {
 
 .wrap{
    margin: 0 auto;
+   width: auto;
 }
 
 .bar{
@@ -151,5 +152,58 @@ table {
 .banner .mask{
 	width: 100%;
 }
+
+.course{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+.course-item{
+	box-shadow: 0 8px 6px -6px #808080 ;
+	width: 300px;
+}
+
+.course-item h2{
+	text-align: center;
+	font-size: 25px;
+}
+
+.course-item img{
+	margin: auto;
+	display: block;
+	padding-top: 15px;
+}
+
+.course-item,.html5{
+	margin-top: 10px;
+}
+
+.course-item,.rwd{
+	margin-top: 60px;
+}
+
+.course-item,.jQuery{
+	margin-top: 30px;
+}
+
+.course-item ul{
+	margin-top: -10px;
+}
+
+.course-item ul li{
+	list-style-type: square;
+	margin-left: 30px;
+	line-height: 1.5;
+}
+.course-item p{
+  padding: 10px 10px 10px 10px;
+  line-height: 1.5;
+}
+
+.content{
+	margin-bottom: 20px;
+}
+
 
 
