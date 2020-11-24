@@ -205,5 +205,56 @@ table {
 	margin-bottom: 20px;
 }
 
+.class h1{
+   margin-top: 65px;
+   margin-bottom: 32px;
+   font-size: 23px;
+   text-align: center;
+   font-weight: normal;
+}
+
+.table{
+   margin: 0 auto;
+   width: 838px;
+   height: 256px;
+}
+
+.table th,.table td{
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+
+.table th{
+	padding: 10px;
+	background: #f7f7f7;
+	font-weight: bolder;
+	border-color: #dddddd;
+	color: #000000;
+ }
+ 
+ .table td{
+   padding: 10px;
+   border-color: #dddddd;
+   font-weight: normal;
+   text-align: center;
+ }
+
+ .class .table .low{
+	 color: #55c4a8;
+ }
+
+ .class .table .well{
+	color: #55c4a8;
+}
+
+.class .table .yes{
+	color: #55c4a8;
+}
+
+.class .table .normal{
+	color: #55c4a8;
+}
+
+
 
 
